@@ -1,9 +1,20 @@
-password_minimum_limit = int(input("Minimum Length: "))
-password_input = input("Enter your password: ")
+def main():
+    password_minimum_limit = 10
+    password = get_password(password_minimum_limit)
+    get_asterisks(password)
 
-if len(password_input) < password_minimum_limit:
-    print("Your password does not meet the minimum length required")
-    password_input = input("Enter your password: ")
-else:
-    asterisks = '*' * len(password_input)
+
+def get_password(password_minimum_limit):
+    password = input("Enter your password: ")
+    while len(password) < password_minimum_limit:
+        print("Your password does not meet the minimum length required.")
+        password = input("Enter your password: ")
+    return password
+
+
+def get_asterisks(password):
+    asterisks = '*' * len(password)
     print(f"{asterisks}")
+
+
+main()
