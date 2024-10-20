@@ -14,13 +14,13 @@ for colour, hex_code in HEX_COLOURS.items():
     print(f"{colour:<3}")
 
 # Input loop for colour names
-colour_name = input("Enter colour name: ").strip().title()
+colour_name = input("Enter colour name: ")
 while colour_name != "":
     try:
         # Convert input to match dictionary keys and get hex code
         print(f"The hex code for {colour_name} is {HEX_COLOURS[colour_name]}")
     except KeyError:
         print("Invalid colour name")
-    colour_name = input("Enter colour name: ").strip().title()
+    colour_name = input("Enter colour name: ")
 
 print("Goodbye!")
