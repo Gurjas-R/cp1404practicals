@@ -8,7 +8,7 @@ HEX_COLOURS = {"Absolute Zero": "#0048ba", "Acid Green": "#b0bf1a", "AliceBlue":
                "Amber": "#ffbf00", "Amethyst": "#9966cc", "AntiqueWhite": "#faebd7", "AntiqueWhite1": "#ffefdb",
                "AntiqueWhite2": "#eedfcc"}
 
-#Displays what colours are included within this code
+# Displays what colours are included within this code
 print("\nAll Colours:")
 for colour, hex_code in HEX_COLOURS.items():
     print(f"{colour:<3}")
