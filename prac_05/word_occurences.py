@@ -1,6 +1,6 @@
 """Word Occurences
 Estimate: 20 minutes
-Actual:
+Actual:28~
 
 This program counts the occurrences of each word in a given string,
 sorts them, and prints them in an aligned format.
