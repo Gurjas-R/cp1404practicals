@@ -59,4 +59,4 @@ I think the practicals are fine overall, but the 2 random practicals with assign
 
 ### What did you do really well for practicals in this subject?
 
-I was able to sumbit something for every practical and didn't miss one, though I did have a few late submissions.
+I was able to submit something for every practical and didn't miss one, though I did have a few late submissions.
